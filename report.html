@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <!-- Link to homepage -->
+                <li><a href="./index.html">Home page</a></li>
+                <!-- Link to Report page -->
+                <li><a href="./report.html">Report</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <p>
+            We prepared for the accessibility check when we started working on the assignment by thinking about the html structure, before actually writing the code. We did this by ensuring the code is based on the knowledge we got from all the lectures and by reading the linked websites beforehand. We also structured the headers and tags exactly as you would see on the actual website. For the image shown on the website, we used an ‘alt’ attribute to describe the image. This way the website is accessible to not only average user’s, but also to visually impared users. 
+        </p>
+
+        <p>
+            Another problem we had was about the fonts. At the beginning, we used a font we liked which we found on the internet. But after adding the website on GitHub, we realized that the font was only working on Safari and not on other web browsers like Google Chrome. We didn’t find any solution before the fifth lab session. After this lab, we learnt about using a Webfont Generator and using backup fonts in the css code. In our opinion, the Webfont Generator method is the best solution because you don’t have to rely on your specific Web Browser to show the font. This way we can choose the exact font we want to use.
+        </p>
+
+        <p>
+            During the lectures, we also learnt that for the font size we should use ‘px’ instead of ‘em’. That’s because em is used when you want the font size to be adaptive/ dynamic to the size of the system, and px is used to make the font size fixed for every system. So we tried to convert the em we used on px in a website, but we realized that wasn’t working because the font size on px is different if you change the font. So we just use “Live server” on Visual studio code for finding the perfect size.
+        </p>
+
+        <p>
+            The first check on the accessibility website showed only 2 problems. They were both related to the contrast being too low between the colour of active link text and its background color. It meant that the contrast was not sufficient enough to meet the WCAG level AA. We tried changing the color of the active link multiple times, but the problem kept popping up. We concluded that the active link color was such a small detail, that we decided to delete the active link all together. Because when you click on the actual link, the white active link doesn’t have an impact on how well you can see the link. The accessibility website also showed about 40 potential problems, but they were things like “image description might not describe the image correctly”. This meant that those problems didn’t need to be looked at.
+        </p>
+    </main>
+</body>
